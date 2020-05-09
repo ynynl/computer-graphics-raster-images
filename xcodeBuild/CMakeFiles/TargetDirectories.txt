@@ -1,0 +1,3 @@
+/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild/CMakeFiles/raster.dir
+/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild/CMakeFiles/ALL_BUILD.dir
+/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild/CMakeFiles/ZERO_CHECK.dir

@@ -6,8 +6,16 @@ void rgba_to_rgb(
   const int & height,
   std::vector<unsigned char> & rgb)
 {
-  rgb.resize(height*width*3);
+  rgb.reserve(height * width * 3);
   ////////////////////////////////////////////////////////////////////////////
   // Add your code here
   ////////////////////////////////////////////////////////////////////////////
+    if (rgba.size()%4 == 0) {
+        for (int i = 0; i < rgba.size()/4; i++) {
+            std::copy(rgba.begin() + 4 * i,
+                      rgba.begin() + 4 * i + 3,
+                      std::back_inserter(rgb));
+        }
+    }
+    return;
 }

@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		32FE48B3BB4F4F07BE87B354 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2015042C7BE8418E80B52894 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				C17DFF0FD07A49DF87237BB4 /* CMake Rules */,
+			);
+			dependencies = (
+				E953EFF760294AC1A7C2BBF4 /* PBXTargetDependency */,
+				7C11F2D96D614B9ABC8B535F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		3D08857D8EDD461EB6EABB18 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FA579CD96E874DC68F2D978A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				8832122D846F4BDD83C6026E /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04C2C0C71A3A4CF8B17AB93A /* reflect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7B7A263D4928A18E8D04 /* reflect.cpp */; };
+		3C709B1651C0457B962422D1 /* rgba_to_rgb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 401BE8061128458386999E4D /* rgba_to_rgb.cpp */; };
+		589FC7367EB140EFB7507CAF /* rgb_to_hsv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACE8A5A8B1E2481FB1D32931 /* rgb_to_hsv.cpp */; };
+		787BADD31C3A42529D529934 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D12E7A7522242899DDCFFA9 /* main.cpp */; };
+		7BEB1387325A40669FAFCA83 /* hue_shift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AC6889ABB543AEB1C4B5ED /* hue_shift.cpp */; };
+		898736D9B32D4EBB89EF3895 /* write_ppm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 198740965D154852B8FA30D2 /* write_ppm.cpp */; };
+		8C9E46410E1A4FDE929C62A8 /* over.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F749C9E04E554735A42C13C1 /* over.cpp */; };
+		96720D3272784930A4369EB7 /* demosaic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF30C6C30C6D4392A1F96937 /* demosaic.cpp */; };
+		A2FC6A796EF54B8AA9C49ED9 /* desaturate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44DF43C858434BBEBD8C86C2 /* desaturate.cpp */; };
+		B33580D95E8749518816A693 /* rgb_to_gray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 624E8775D43D4C28BECF58F5 /* rgb_to_gray.cpp */; };
+		CA37F11002B1409FB5E218BE /* rotate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5158555A368402685208FD9 /* rotate.cpp */; };
+		D1933D07CBFA499997C4CAD5 /* simulate_bayer_mosaic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94700F5001247259913ADC0 /* simulate_bayer_mosaic.cpp */; };
+		D9D86C2B24670D3D00E811D1 /* data in CopyFiles */ = {isa = PBXBuildFile; fileRef = D9D86C2A24670D3D00E811D1 /* data */; };
+		FB01F95E012D433EA72E73E5 /* hsv_to_rgb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCFBE4C17B8F4029B05CF03F /* hsv_to_rgb.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3170A60B064C462EA9D5E8BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3EFAAC5C23A4D6690E718DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D08857D8EDD461EB6EABB18;
+			remoteInfo = ZERO_CHECK;
+		};
+		364118584B614D2CB36A41DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3EFAAC5C23A4D6690E718DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9905A1CEBC634F85B8C44C40;
+			remoteInfo = raster;
+		};
+		5D4467E4B239495DA48601E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3EFAAC5C23A4D6690E718DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D08857D8EDD461EB6EABB18;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9F27F6B2467079E00034017 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild";
+			dstSubfolderSpec = 0;
+			files = (
+				D9D86C2B24670D3D00E811D1 /* data in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		198740965D154852B8FA30D2 /* write_ppm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = write_ppm.cpp; path = src/write_ppm.cpp; sourceTree = SOURCE_ROOT; };
+		36B29E01C07D4CD0AC158F63 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		401BE8061128458386999E4D /* rgba_to_rgb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rgba_to_rgb.cpp; path = src/rgba_to_rgb.cpp; sourceTree = SOURCE_ROOT; };
+		44DF43C858434BBEBD8C86C2 /* desaturate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = desaturate.cpp; path = src/desaturate.cpp; sourceTree = SOURCE_ROOT; };
+		624E8775D43D4C28BECF58F5 /* rgb_to_gray.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rgb_to_gray.cpp; path = src/rgb_to_gray.cpp; sourceTree = SOURCE_ROOT; };
+		74CA2CF44BE047CB82FFE98B /* raster */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = raster; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AC6889ABB543AEB1C4B5ED /* hue_shift.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hue_shift.cpp; path = src/hue_shift.cpp; sourceTree = SOURCE_ROOT; };
+		8D12E7A7522242899DDCFFA9 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		ACE8A5A8B1E2481FB1D32931 /* rgb_to_hsv.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rgb_to_hsv.cpp; path = src/rgb_to_hsv.cpp; sourceTree = SOURCE_ROOT; };
+		ADCC5A13C60B418F87D279D4 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C5158555A368402685208FD9 /* rotate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rotate.cpp; path = src/rotate.cpp; sourceTree = SOURCE_ROOT; };
+		C94700F5001247259913ADC0 /* simulate_bayer_mosaic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = simulate_bayer_mosaic.cpp; path = src/simulate_bayer_mosaic.cpp; sourceTree = SOURCE_ROOT; };
+		D2DB7B7A263D4928A18E8D04 /* reflect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reflect.cpp; path = src/reflect.cpp; sourceTree = SOURCE_ROOT; };
+		D9D86C2A24670D3D00E811D1 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
+		F749C9E04E554735A42C13C1 /* over.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = over.cpp; path = src/over.cpp; sourceTree = SOURCE_ROOT; };
+		FCFBE4C17B8F4029B05CF03F /* hsv_to_rgb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hsv_to_rgb.cpp; path = src/hsv_to_rgb.cpp; sourceTree = SOURCE_ROOT; };
+		FF30C6C30C6D4392A1F96937 /* demosaic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = demosaic.cpp; path = src/demosaic.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2683E177F5B9401985F89089 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6400444BD1064508BA973D29 /* CMake Rules */,
+				36B29E01C07D4CD0AC158F63 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6400444BD1064508BA973D29 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6BB98376C1C748BAAFE4315B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D12E7A7522242899DDCFFA9 /* main.cpp */,
+				FF30C6C30C6D4392A1F96937 /* demosaic.cpp */,
+				44DF43C858434BBEBD8C86C2 /* desaturate.cpp */,
+				FCFBE4C17B8F4029B05CF03F /* hsv_to_rgb.cpp */,
+				83AC6889ABB543AEB1C4B5ED /* hue_shift.cpp */,
+				F749C9E04E554735A42C13C1 /* over.cpp */,
+				D2DB7B7A263D4928A18E8D04 /* reflect.cpp */,
+				624E8775D43D4C28BECF58F5 /* rgb_to_gray.cpp */,
+				ACE8A5A8B1E2481FB1D32931 /* rgb_to_hsv.cpp */,
+				401BE8061128458386999E4D /* rgba_to_rgb.cpp */,
+				C5158555A368402685208FD9 /* rotate.cpp */,
+				C94700F5001247259913ADC0 /* simulate_bayer_mosaic.cpp */,
+				198740965D154852B8FA30D2 /* write_ppm.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		825708B571D14D6F9D42FCBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74CA2CF44BE047CB82FFE98B /* raster */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5237CAF6AF649C4A69EBC4F = {
+			isa = PBXGroup;
+			children = (
+				D9D86C2A24670D3D00E811D1 /* data */,
+				DBAE50B930894B3DB5E8FBEB /* raster */,
+				2683E177F5B9401985F89089 /* ALL_BUILD */,
+				825708B571D14D6F9D42FCBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBAE50B930894B3DB5E8FBEB /* raster */ = {
+			isa = PBXGroup;
+			children = (
+				6BB98376C1C748BAAFE4315B /* Source Files */,
+				ADCC5A13C60B418F87D279D4 /* CMakeLists.txt */,
+			);
+			name = raster;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9905A1CEBC634F85B8C44C40 /* raster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D70217FE3E40DBB857BCD1 /* Build configuration list for PBXNativeTarget "raster" */;
+			buildPhases = (
+				4511FBB9DFE6447285D43E0E /* Sources */,
+				D9F27F692467047300034017 /* Resources */,
+				D9F27F6B2467079E00034017 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE939641838F4C26A7F7C200 /* PBXTargetDependency */,
+			);
+			name = raster;
+			productName = raster;
+			productReference = 74CA2CF44BE047CB82FFE98B /* raster */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3EFAAC5C23A4D6690E718DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+			};
+			buildConfigurationList = ADAD8AA79BA04590B6B9E3AB /* Build configuration list for PBXProject "raster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5237CAF6AF649C4A69EBC4F;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				32FE48B3BB4F4F07BE87B354 /* ALL_BUILD */,
+				3D08857D8EDD461EB6EABB18 /* ZERO_CHECK */,
+				9905A1CEBC634F85B8C44C40 /* raster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9F27F692467047300034017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8832122D846F4BDD83C6026E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yinyinlu/OneDrive\\ -\\ University\\ of\\ Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild -f /Users/yinyinlu/OneDrive\\ -\\ University\\ of\\ Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		C17DFF0FD07A49DF87237BB4 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yinyinlu/OneDrive\\ -\\ University\\ of\\ Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild -f /Users/yinyinlu/OneDrive\\ -\\ University\\ of\\ Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4511FBB9DFE6447285D43E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787BADD31C3A42529D529934 /* main.cpp in Sources */,
+				96720D3272784930A4369EB7 /* demosaic.cpp in Sources */,
+				A2FC6A796EF54B8AA9C49ED9 /* desaturate.cpp in Sources */,
+				FB01F95E012D433EA72E73E5 /* hsv_to_rgb.cpp in Sources */,
+				7BEB1387325A40669FAFCA83 /* hue_shift.cpp in Sources */,
+				8C9E46410E1A4FDE929C62A8 /* over.cpp in Sources */,
+				04C2C0C71A3A4CF8B17AB93A /* reflect.cpp in Sources */,
+				B33580D95E8749518816A693 /* rgb_to_gray.cpp in Sources */,
+				589FC7367EB140EFB7507CAF /* rgb_to_hsv.cpp in Sources */,
+				3C709B1651C0457B962422D1 /* rgba_to_rgb.cpp in Sources */,
+				CA37F11002B1409FB5E218BE /* rotate.cpp in Sources */,
+				D1933D07CBFA499997C4CAD5 /* simulate_bayer_mosaic.cpp in Sources */,
+				898736D9B32D4EBB89EF3895 /* write_ppm.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C11F2D96D614B9ABC8B535F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9905A1CEBC634F85B8C44C40 /* raster */;
+			targetProxy = 364118584B614D2CB36A41DF /* PBXContainerItemProxy */;
+		};
+		E953EFF760294AC1A7C2BBF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D08857D8EDD461EB6EABB18 /* ZERO_CHECK */;
+			targetProxy = 3170A60B064C462EA9D5E8BD /* PBXContainerItemProxy */;
+		};
+		FE939641838F4C26A7F7C200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D08857D8EDD461EB6EABB18 /* ZERO_CHECK */;
+			targetProxy = 5D4467E4B239495DA48601E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0281EF5F085C438A85183852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild/build";
+			};
+			name = Release;
+		};
+		251E6E8149D24680A064A3F2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/include\"",
+					"\"/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/json\"",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++0x",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raster;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild";
+				SYSTEM_HEADER_SEARCH_PATHS = "\"/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/shared/json\"";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		274E6BF62DDC49D283187F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		67F15F6ECD5E45519555A718 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		6B7CE3BAC0C5434FB4C69A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/include\"",
+					"\"/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/json\"",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++0x     ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raster;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild";
+				SYSTEM_HEADER_SEARCH_PATHS = "\"/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/shared/json\"";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		6F23AC0D0189477EB5592349 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		6FE8DE84498745289142BF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		8DFC1D1C1EB745E9941E8070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		9F235200B51B4E37B97BADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/include\"",
+					"\"/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/json\"",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++0x",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raster;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild";
+				SYSTEM_HEADER_SEARCH_PATHS = "\"/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/shared/json\"";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		B6708661ADAF4C71BCB172C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild/build";
+			};
+			name = Debug;
+		};
+		B7AB8510B4FD4CAEB219E29A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild/build";
+			};
+			name = RelWithDebInfo;
+		};
+		D1682E8FF0374664AA8F1058 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		E9066F2F3A3649B88BBEA1C5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/include\"",
+					"\"/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/json\"",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++0x",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raster;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild";
+				SYSTEM_HEADER_SEARCH_PATHS = "\"/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/shared/json\"";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		ED8CDD375DF1488B983B2916 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		F42FD3AC4D854DCAB81DBDF3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild/build";
+			};
+			name = MinSizeRel;
+		};
+		F7C4779FB6D5490A8BD276E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yinyinlu/OneDrive - University of Toronto/Projects/ComputerGraphic/computer-graphics-raster-images/xcodeBuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2015042C7BE8418E80B52894 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C4779FB6D5490A8BD276E6 /* Debug */,
+				6FE8DE84498745289142BF96 /* Release */,
+				ED8CDD375DF1488B983B2916 /* MinSizeRel */,
+				D1682E8FF0374664AA8F1058 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ADAD8AA79BA04590B6B9E3AB /* Build configuration list for PBXProject "raster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6708661ADAF4C71BCB172C6 /* Debug */,
+				0281EF5F085C438A85183852 /* Release */,
+				F42FD3AC4D854DCAB81DBDF3 /* MinSizeRel */,
+				B7AB8510B4FD4CAEB219E29A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C4D70217FE3E40DBB857BCD1 /* Build configuration list for PBXNativeTarget "raster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B7CE3BAC0C5434FB4C69A5E /* Debug */,
+				9F235200B51B4E37B97BADDB /* Release */,
+				E9066F2F3A3649B88BBEA1C5 /* MinSizeRel */,
+				251E6E8149D24680A064A3F2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FA579CD96E874DC68F2D978A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274E6BF62DDC49D283187F90 /* Debug */,
+				8DFC1D1C1EB745E9941E8070 /* Release */,
+				6F23AC0D0189477EB5592349 /* MinSizeRel */,
+				67F15F6ECD5E45519555A718 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3EFAAC5C23A4D6690E718DF /* Project object */;
+}
