@@ -7,8 +7,13 @@ void over(
   const int & height,
   std::vector<unsigned char> & C)
 {
-  C.resize(A.size());
+  C.reserve(A.size());
   ////////////////////////////////////////////////////////////////////////////
   // Add your code here
+    for (int i = 0; i < A.size(); i += 4) {
+        
+    }
+    
+
   ////////////////////////////////////////////////////////////////////////////
 }
