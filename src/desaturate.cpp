@@ -19,7 +19,7 @@ void desaturate(
           double b = rgb.at(i + 2) * 1.0;
           
           rgb_to_hsv(r, g, b, h, s, v);
-          hsv_to_rgb(h, s * (1 - factor), v, r, g, b);
+          hsv_to_rgb(h, s * (1.0 - factor), v, r, g, b);
           
           desaturated[i] = (int)r;
           desaturated[i + 1] = (int)g;

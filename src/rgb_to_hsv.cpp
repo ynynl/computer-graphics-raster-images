@@ -11,9 +11,9 @@ void rgb_to_hsv(
 {
   ////////////////////////////////////////////////////////////////////////////
   // Replace with your code here:
-    double r1 = r/255;
-    double g1 = g/255;
-    double b1 = b/255;
+    double r1 = r/255.0;
+    double g1 = g/255.0;
+    double b1 = b/255.0;
     
     double cmax = std::fmax(r1, g1);
     cmax = std::fmax(cmax, b1);
