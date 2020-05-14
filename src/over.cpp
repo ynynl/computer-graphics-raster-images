@@ -16,7 +16,7 @@ void over(
         double alphaB = B[i+3]/255.0;
         double alphaO = alphaA + (alphaB * (1 - alphaA));
         
-        if (C[i+3] == 0) {
+        if (alphaO == 0) {
             continue;
             
         } else {
