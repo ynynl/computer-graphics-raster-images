@@ -24,7 +24,6 @@ bool write_ppm(
         assert((data.size()/num_channels == width * height) && "data size does not match image size");
 
         std::ofstream outfile (filename);
-        // std::ostringstream vts;
         int P;
         if (num_channels == 3) {P = 3;} else {P = 2;}
 
@@ -35,15 +34,6 @@ bool write_ppm(
         for (int i = 0; i < data.size(); i ++) {
           outfile << std::to_string(data[i]) + " ";
         }
-        
-        // std::copy(data.begin(),
-        //           data.end(),
-        //           std::ostream_iterator<int>(vts, " "));
-        
-        // outfile << "P" + std::to_string(P) + "\n"
-        //             + std::to_string(width) + " " + std::to_string(height) + "\n"
-        //             + std::to_string(255) + "\n"
-        //             + vts.str() << std::endl;
 
         outfile.close();
             
